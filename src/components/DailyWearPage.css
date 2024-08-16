@@ -1,0 +1,41 @@
+.dailywear-page {
+  padding: 20px;
+}
+
+.dailywear-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.dailywear-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.dailywear-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 200px; /* Set the height for the image container */
+}
+
+.dailywear-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire container without distorting the aspect ratio */
+}
+
+.dailywear-title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dailywear-price {
+  text-align: center;
+  margin-top: 5px;
+  color: #ff6f61;
+  font-weight: bold;
+}

@@ -1,0 +1,106 @@
+/* src/components/Navbar.css */
+
+/* .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+  }
+  
+  .shop-dropdown {
+    position: relative;
+  }
+  
+  .nav-link:hover, .dropdown-item:hover {
+    background-color: #575757;
+  }
+  
+  .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    border: 1px solid #575757;
+    z-index: 1;
+  }
+  
+  .dropdown-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #575757;
+  }
+   */
+
+
+   /* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centers the nav items horizontally */
+    align-items: center; /* Aligns items vertically centered */
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Adds padding for clickable area */
+    font-size: 18px;
+    position: relative;
+    display: inline-block; /* Ensures proper spacing */
+    margin: 0 10px; /* Adds spacing between each link */
+  }
+  h1 {
+    color: black;
+  }
+  
+  .shop-dropdown {
+    position: relative;
+  }
+  
+  .nav-link:hover, .dropdown-item:hover {
+    background-color: #575757;
+    border-radius: 5px; /* Optional: Adds rounded corners on hover */
+  }
+  
+  .dropdown-content {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    border: 1px solid #575757;
+    z-index: 1;
+    min-width: 150px; /* Ensures dropdown has a minimum width */
+  }
+  
+  .shop-dropdown:hover .dropdown-content {
+    display: flex; /* Shows the dropdown on hover */
+  }
+  
+  .dropdown-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #575757;
+  }
+  

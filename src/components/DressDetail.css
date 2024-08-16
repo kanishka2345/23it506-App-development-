@@ -1,0 +1,169 @@
+.dress-detail {
+  display: flex;
+  gap: 20px;
+}
+
+.dress-images {
+  flex: 1;
+}
+
+.dress-image {
+  width: 100%;
+  height: auto;
+}
+
+.details {
+  flex: 2;
+}
+
+.selection-container {
+  margin: 10px 0;
+}
+
+.selection {
+  display: flex;
+  gap: 10px;
+}
+
+.payment-form {
+  margin-top: 20px;
+}
+
+.payment-methods div {
+  margin: 5px 0;
+}
+
+.submit-order {
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+}
+
+.additional-info {
+  margin-top: 20px;
+}
+
+.rating-container {
+  margin-top: 20px;
+}
+
+.stars {
+  display: flex;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: grey;
+}
+
+.star.filled {
+  color: gold;
+}
+
+
+
+
+.add-to-cart, .buy-now, .return-product, .submit-order, .submit-return {
+  display: block;
+  margin: 10px 0; /* This margin will add vertical spacing */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-to-cart:hover, .buy-now:hover, .return-product:hover, .submit-order:hover, .submit-return:hover {
+  background-color: #0056b3;
+}
+
+.add-to-cart {
+  margin-bottom: 10px; /* Adds space between Add to Cart and Buy Now */
+}
+
+.buy-now {
+  margin-bottom: 10px; /* Adds space between Buy Now and Return Product */
+}
+
+
+/* src/components/DressDetail.css */
+.dress-detail {
+  display: flex;
+  padding: 20px;
+}
+
+.dress-images {
+  flex: 1;
+}
+
+.dress-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.details {
+  flex: 2;
+  margin-left: 20px;
+}
+
+.selection-container {
+  margin-bottom: 20px;
+}
+
+.selection {
+  display: flex;
+  gap: 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.add-to-cart, .buy-now, .return-product {
+  padding: 10px 20px;
+}
+
+.payment-form, .return-form {
+  margin-top: 20px;
+}
+
+.payment-methods, .return-form {
+  margin-bottom: 20px;
+}
+
+.payment-methods div, .return-form div {
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+}
+
+.rating-container {
+  margin-top: 20px;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.star.filled {
+  color: gold;
+}
+
+
+

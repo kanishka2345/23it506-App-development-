@@ -1,0 +1,50 @@
+.traditionwear-page {
+  padding: 20px 0;
+}
+
+.traditionwear-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.traditionwear-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.traditionwear-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  overflow: hidden;
+}
+
+.traditionwear-image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.traditionwear-title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.traditionwear-price {
+  text-align: center;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.traditionwear-accessories {
+  margin-top: 10px;
+}
+
+.traditionwear-accessory-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,31 @@
+src/components/Dress.css
+
+.dress-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .dress-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .dress-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px; /* Adjust size as needed */
+   }
+  
+  .dress-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+    
+
+
+ 

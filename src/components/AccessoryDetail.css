@@ -1,0 +1,152 @@
+.accessory-detail {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.detail-image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.details {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.details h1 {
+  margin-top: 0;
+}
+
+.price {
+  font-size: 1.5em;
+  color: #007bff;
+  margin: 10px 0;
+}
+
+.quantity {
+  margin: 20px 0;
+}
+
+.quantity label {
+  margin-right: 10px;
+}
+
+.quantity-input {
+  width: 20px; /* Adjust this value to make the input box smaller */
+  padding: 2px;
+  font-size: 0.9em; /* Adjust font size if needed */
+  text-align: center;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 10px; /* Add space between buttons */
+}
+
+.actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background-color: #0056b3;
+}
+
+.rating {
+  margin-top: 20px;
+}
+
+.rating h2 {
+  margin: 0;
+}
+
+.stars {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.star {
+  color: #ddd;
+  transition: color 0.3s;
+}
+
+.star.filled {
+  color: #f5c518;
+}
+
+.rating button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.rating button:disabled {
+  background-color: #6c757d;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.info h3 {
+  margin-bottom: 10px;
+}
+
+.info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info li {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.return-form {
+  margin-top: 20px;
+}
+
+.return-form h2 {
+  margin-bottom: 10px;
+}
+
+.return-reasons {
+  margin-bottom: 20px;
+}
+
+.return-reasons label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.return-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+
+.return-form button:disabled {
+  background-color: #6c757d;
+}
